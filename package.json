@@ -1,7 +1,11 @@
 {
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/khanhlh21197/nodejs_server.git"
+  },
   "name": "NodeWebsocketHeroku",
   "version": "1.0.0",
-  "description": "",
+  "description": "node js server",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
@@ -10,9 +14,9 @@
   "author": "",
   "license": "ISC",
   "dependencies": {
-    "bufferutil": "^4.0.1",
     "express": "^4.17.1",
     "utf-8-validate": "^5.0.2",
+    "websocket": "^1.0.31",
     "ws": "^7.2.3"
   }
 }
